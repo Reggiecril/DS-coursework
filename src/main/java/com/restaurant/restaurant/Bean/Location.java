@@ -5,8 +5,8 @@ public class Location {
     private String locality;
     private String city;
     private int city_id;
-    private String latitude;
-    private String longitude;
+    private double latitude;
+    private double longitude;
     private String zipcode;
     private int country_id;
     private String locality_verbose;
@@ -43,19 +43,19 @@ public class Location {
         this.city_id = city_id;
     }
 
-    public String getLatitude() {
+    public double getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(String latitude) {
+    public void setLatitude(double latitude) {
         this.latitude = latitude;
     }
 
-    public String getLongitude() {
+    public double getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(String longitude) {
+    public void setLongitude(double longitude) {
         this.longitude = longitude;
     }
 

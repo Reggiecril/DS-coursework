@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RequestMapping("/")
 @Controller
-public class SearchControl {
+public class SearchController {
     private static final String HOME_PAGE="/";
     private static final String INDEX="index";
     private static final String GREETING_ID="greeting";

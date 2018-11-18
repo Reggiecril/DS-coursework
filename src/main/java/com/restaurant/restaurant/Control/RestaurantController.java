@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RequestMapping("/restaurant")
 @Controller
-public class RestaurantControl {
+public class RestaurantController {
     private static final String RESTAURANT_TEMPLATE = "restaurant";
     private static final String ITEM_TEMPLATE_ID = "items";
     private static final String HOMEPAGE_REDIRECT = "redirect:/resturant/";
